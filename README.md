@@ -1,0 +1,1 @@
+This is a project for The Odin Project in which making a library using Object Constructors and LocalStorage is required. The code for this project can be found on my GitHub repository.

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div clas="container">
+      <div class="title">
+        <h1>
+          My library
+        </h1>
+        <h3>
+          This is a project for The Odin Project in which making a library using Object Constructors and LocalStorage is required.
+          The code for this project can be found on my <a href="https://github.com/MicSparrow/repositories">GitHub repository</a>.
+        </h3>
+      </div>
+      <div class="sumbmit-bar">
+        <form>
+          <div class="wrapper">
+            <p>Book</p><input type="text" class="book">
+          </div>
+          <div class="wrapper">
+            <p>Author</p><input type="text" class="author">
+          </div>
+          <div class="wrapper">
+            <p>Status</p><select class="status">
+              <option>Read</option>
+              <option>Not read</option>
+            </select>
+          </div>
+          <div class="wrapper">
+            <input type="submit"  value="Submit" class="submit"></div>
+        </form>
+      </div>
+    </div>
+
+
+    <div class='lib-container'>
+      <div class="row">
+        <div class="columns"></div>
+        <table class="columns">
+          <tr>
+            <th>Book</th>
+            <th>Author</th>
+            <th>Status</th>
+            <th></th>
+          </tr>
+          <tbody class="table-body"></tbody>
+        </table>
+      </div>
+
+    </div>
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
